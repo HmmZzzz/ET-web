@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="CSS/Style.css">
+    </head>
+
+    <body>
+
+        <div class="container1">
+            <div class="container2">
+                <div class="leftContainer" id="signin">
+                    <div class="left">
+                        <h1 class="heading">
+                            SIGN IN
+                        </h1>
+                        <form class="login">
+                            <input type="email" placeholder="email">
+                            <input type="password" placeholder="password">
+                            <p forgotPass>
+                                Forgot Password ?
+                            </p>
+                            <button type="submit" class="submitButton">
+                                SIGN IN
+                            </button>
+                            <p class="new">
+                                New Member ? 
+                                <i class="transferButton" aria-hidden="true" onclick="displaySignUp()"> Sign up </i>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="rightContainer" id="signup">
+                    <div class="right">
+                        <h1 class="heading">
+                            SIGN UP
+                        </h1>
+                        <form class="signup">
+                            <input type="text" placeholder="name">
+                            <input type="email" placeholder="email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="submitButton">
+                                SIGN UP
+                            </button>
+                            <p class="new"> 
+                                Already have an account ?
+                                <i class="transferButton" aria-hidden="true" onclick="hideSignUp()"> Sign in</i> 
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="JS/script.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,27 @@
+.container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container2 {
+    width: 70%;
+    height: 75vh;
+    margin-left: 30%;
+}
+
+.rightContainer {
+    display: none;
+}
+
+
+.transferButton {
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    width: 50%;
+}
